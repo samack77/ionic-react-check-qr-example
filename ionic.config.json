@@ -1,0 +1,7 @@
+{
+  "name": "Check QR",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
