@@ -15,6 +15,8 @@ In this example we will use this library [@capacitor-community/barcode-scanner](
 ### Some considerations:
 1. Make sure you have the necessary permissions to read the QR. `didUserGrantPermission()`
 2. The QR you need to generate to test this code is basically a valid user ID for this testing API https://reqres.in/ Example: `2`
+<img width="265" alt="image" src="https://github.com/samack77/ionic-react-check-qr-example/assets/10253557/1e8cc9bc-546f-4f12-aa80-95f53c81fd26">
+
 3. Consider these lines of code, which basically make the background of our app transparent to visualize the camera interface.
   ```
     BarcodeScanner.hideBackground();
